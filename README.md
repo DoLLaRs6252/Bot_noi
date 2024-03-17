@@ -1,5 +1,5 @@
 # # BOT NOI
-Play at : botnoi.vercel.app
+Play at : https://botnoi.vercel.app/
 
 # # วิธีติดตั้ง
 
