@@ -1,7 +1,7 @@
-# # BOT NOI
+ # BOT NOI
 Play at : https://botnoi.vercel.app/
 
-# # วิธีติดตั้ง
+ # วิธีติดตั้ง
 
 เลือก file path ที่ต้องการจะเก็บไฟล์ไว้
 ```
@@ -27,7 +27,7 @@ start server
 npm run dev
 ```
 
-## # ภาษา Framwork   และ Toolต่างๆที่ใช้
+##  ภาษา Framwork   และ Toolต่างๆที่ใช้
 
 - React
 - Node.js
