@@ -2,9 +2,9 @@ import myImage from '../../image/image.jpg';
 
 export default function Resume() {
     return (
-        <div className=" flex justify-center wx-auto">
-            <div className="flex flex-wrap h-a4h w-a4w">
-                <div className="w-full sm:w-2/5 md:w-3/10 lg:w-2/5 xl:w-3/10 border border-black border-r-0">
+        <div className=" flex justify-center wx-auto h-screen">
+            <div className="flex flex-wrap">
+                <div className="w-full  sm:w-2/5 md:w-3/10 lg:w-2/5 xl:w-3/10 border border-black border-r-0">
                     <div className="bg-stone-700 text-white h-full">
                         <div className="flex justify-center p-6">
                             <img src={myImage} alt="Description of the image" className="w-[122px] h-40 rounded-lg object-cover" />
@@ -64,7 +64,7 @@ export default function Resume() {
                     </div>
                 </div>
                 <div className=" w-full sm:w-3/5 p-8 pt-4 border border-black border-l-0">
-                    <div className=" hidden sm:block">
+                    <div className=" hidden sm:block mb-4">
                         <h1 className="text-5xl font-bold tracking-[8px]">Varattaya </h1>
                         <h2 className="font-medium text-4xl p-1 tracking-[6px]">Panyachotchuang</h2>
                     </div>
@@ -76,14 +76,14 @@ export default function Resume() {
                     <div>
                         <div className="border border-black mb-4 ">
                             <div className="relative mt-4 mb-16">
-                                <h1 className="bg-stone-800 font-bold text-2xl text-white py-2 px-4 pl-9 w-2/3 absolute left-[-20px]">ABOUT ME</h1>
+                                <h1 className="bg-stone-800 font-bold text-2xl text-white pl-9 py-2 px-4  absolute  md:w-2/3 lg:w-2/3 xl:w-2/3 sm:w-full left-[-20px]">ABOUT ME</h1>
                             </div>
                             <p className="m-4 mt-[70px] text-sm">I am a student of the Faculty of Computer Science at Silpakorn University who is passionate about studying and developing skills in computer science and advanced technology. And also a passion for problem-solving and an ability to learn based on rapidly changing technology.</p>
                         </div>
                         <div className="border border-black mb-4  pt-0 relative">
                             <div className="flex-none w-[1px] h-[75%]  bg-black absolute left-[19px] top-[78px]"></div>
                             <div className="relative mt-4 mb-16">
-                                <h1 className="bg-stone-800 font-bold text-2xl text-white py-2 px-4 pl-9 w-2/3 absolute left-[-20px]">PROJECTS</h1>
+                                <h1 className="bg-stone-800 font-bold text-2xl text-white pl-9 py-2 px-4  md:w-2/3 lg:w-2/3 xl:w-2/3 sm:w-full absolute left-[-20px]">PROJECTS</h1>
                             </div>
                             <ul className="m-4 p-4 pt-1 pr-0 list-none">
 
@@ -128,7 +128,7 @@ export default function Resume() {
                             <div className="flex-none w-[1px] h-[50%] bg-black absolute left-[19px] top-[74px]"></div>
                             <div class="w-3 h-3 rounded-full flex-none  bg-black absolute left-[13px] top-[74px]"> </div>
                             <div className=" mt-4 mb-16 ">
-                                <h1 className="bg-stone-800 pl-9 font-bold text-2xl text-white py-2 px-4 w-2/3 absolute left-[-20px]">ACTIVTY</h1>
+                                <h1 className="bg-stone-800  font-bold text-2xl text-white pl-9 py-2 px-4  md:w-2/3 lg:w-2/3 xl:w-2/3 sm:w-full absolute left-[-20px]">ACTIVTY</h1>
                             </div>
                             <ul className="m-4 p-4 pt-1 list-disc  ">
                                 <li className='list-none'>
