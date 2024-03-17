@@ -1,4 +1,5 @@
-
+# # BOT NOI
+Play at : botnoi.vercel.app
 
 # # วิธีติดตั้ง
 
