@@ -17,17 +17,17 @@ export default function Resume() {
                             <h2 className="font-bold">Phone</h2>
                             <p>(+66) 88 092 5781</p>
                         </div>
-                        <div className=" p-4">
+                        <div className="p-4">
                             <h2 className="font-bold">Email</h2>
-                            <p>varattaya.panyachotchuang@gmail.com</p>
+                            <p className="font-normal max-w-full sm:max-w-none break-all sm:inline">varattaya.panyachotchuang@gmail.com</p>
                         </div>
                         <div className="mb-4 p-4">
                             <h2 className="font-bold">Github</h2>
-                            <p>https://github.com/DoLLaRs6252</p>
+                            <a href="https://github.com/DoLLaRs6252" class="underline">https://github.com/DoLLaRs6252</a>
                         </div>
                         <div >
                             <h1 className="bg-stone-800 font-bold text-2xl text-white py-2 px-4 mr-4">EDUCATION</h1>
-                            <div className=" p-4">
+                            <div className="p-4">
                                 <h2 className="font-extrabold">Bachelor of Science Program in Computer Science</h2>
                                 <h3 className='font-semibold'>Silpakorn University | GPA 3.25</h3>
                                 <p>2021 - 2024 </p>
@@ -76,7 +76,7 @@ export default function Resume() {
                     <div>
                         <div className="border border-black mb-4 ">
                             <div className="relative mt-4 mb-16">
-                                <h1 className="bg-stone-800 font-bold text-2xl text-white pl-9 py-2 px-4  absolute  md:w-2/3 lg:w-2/3 xl:w-2/3 sm:w-full left-[-20px]">ABOUT ME</h1>
+                                <h1 className="bg-stone-800 font-bold text-2xl text-white pl-9 py-2 px-4  absolute w-2/3 md:w-2/3 lg:w-2/3 xl:w-2/3 sm:w-full left-[-20px]">ABOUT ME</h1>
                             </div>
                             <p className="m-4 mt-[70px] text-sm">I am a student of the Faculty of Computer Science at Silpakorn University who is passionate about studying and developing skills in computer science and advanced technology. And also a passion for problem-solving and an ability to learn based on rapidly changing technology.</p>
                         </div>
@@ -99,7 +99,7 @@ export default function Resume() {
                                                 In my recent AI project, I used US news articles to train
                                                 multiple machine learning models. I aimed to create efficient
                                                 predictive models that could analyze and forecast outcomes
-                                                </li>
+                                            </li>
 
                                         </ul>
                                     </div>
