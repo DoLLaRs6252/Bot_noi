@@ -78,12 +78,12 @@ const PokemonCard = ({ url }) => {
   const speed = stats.find(stat => stat.stat.name === 'speed').base_stat;
 
   return (
-    <div className="border border-gray-200 rounded-lg p-4 bg-lime-400">
+    <div className="border border-green-800 rounded-lg p-4 bg-lime-400">
       <div className="flex  ">
         <img src={sprites.front_default} alt={name} className=" max-w-xs bg-white" />
         <img src={sprites.back_default} alt={name} className=" max-w-xs bg-white" />
       </div>
-      <div className=" mt-2">
+      <div className=" mt-2 text-black">
         <h2 className="text-lg">
           <span className="font-bold">Name: </span>
           <span className="uppercase">{name}</span>

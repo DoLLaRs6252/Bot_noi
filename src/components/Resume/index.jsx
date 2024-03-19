@@ -4,7 +4,7 @@ export default function Resume() {
     return (
         <div className=" flex justify-center wx-auto h-screen">
             <div className="flex flex-wrap">
-                <div className="w-full  sm:w-2/5 md:w-3/10 lg:w-2/5 xl:w-3/10 border border-black border-r-0">
+                <div className="w-full sm:w-2/5 md:w-3/10 lg:w-2/5 xl:w-3/10 border border-black border-r-0">
                     <div className="bg-stone-700 text-white h-full">
                         <div className="flex justify-center p-6">
                             <img src={myImage} alt="Description of the image" className="w-[122px] h-40 rounded-lg object-cover" />

@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/" element={<Mainpage />} />
+        <Route path="/" element={<App/>} />
         <Route path="/Pokemon_page" element={<Pokemonpage />} />
         <Route path="/Resume_page" element={<Resumepage />} />
         <Route path="/Star_page" element={<StarPage />} />
