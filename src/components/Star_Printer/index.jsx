@@ -28,7 +28,7 @@ function StarPrinter() {
 
   return (
     <div>
-      <h1 className="flex justify-center items-center h-full m-4 text-xl">Star Calculator</h1>
+      <h1 className="flex justify-center items-center h-full m-4 text-xl">Star Printer</h1>
       <form onSubmit={handleSubmit} >
         <label htmlFor="starCountInput" className="m-4 mr-0">input:</label>
         <input
