@@ -1,11 +1,11 @@
-import StarCalculator from "../components/Star_Calculator";
+import StarPrinter from "../components/Star_Printer";
 import Navber from "../components/Navbar";
 
 export default function StarPage() {
     return (
       <div>
         <Navber/>
-        <StarCalculator/>
+        <StarPrinter/>
       </div>
     )
 }

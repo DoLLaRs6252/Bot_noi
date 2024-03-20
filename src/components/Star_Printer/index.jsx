@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-function StarCalculator() {
+function StarPrinter() {
   const [starCount, setStarCount] = useState('');
   const [stars, setStars] = useState([]);
 
@@ -51,4 +51,4 @@ function StarCalculator() {
   );
 }
 
-export default StarCalculator;
+export default StarPrinter;

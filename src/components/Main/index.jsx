@@ -14,7 +14,7 @@ export default function Main() {
         <div className="flex flex-wrap justify-center">
           <div className="card w-full sm:w-96 bg-neutral text-neutral-content m-4">
             <div className="card-body">
-              <h2 className="card-title">Star calculater</h2>
+              <h2 className="card-title">Star Printer</h2>
               <p>ที่พิมดาวเป็นรูปแบบตามจำนวนที่ให้มา</p>
               <div className="card-actions justify-end">
                 <Link to="/Star_page"><button className="btn">Enter!</button></Link>
